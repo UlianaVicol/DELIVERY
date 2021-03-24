@@ -86,9 +86,6 @@
 
         totalPrice = cost_1 + cost_2 + cost_3 + cost_4 
         // FREE DELIVERY 
-        // TREBUIE SA FAC FREE DELIVERY CU IF SI ELSE CU UN TEXT: daca suma e mai mare de 200 mdl atunci livrarea este gratuita, 
-        // daca e mai mica de 200 atunci livrarea cu plata (EL ACUM ARATA DOAR CU TRUE SAU FALS cu asta ${free_delivery} )
-        // mai jos am codul care imi afiseaza bilantul comenzii (bill)
          //free_delivery = totalPrice > 200 
        
          if(free_delivery= totalPrice >= free_delivery){
@@ -100,7 +97,25 @@
             alert("Sorry! You have to pay more $$$$ :)")
             }
     
-        // VARIANTA II PRIN HTML- CSS
+    
+    
+        //ORDER BOX   VARIANTA I
+    // alert(
+    //   `
+    //            --------------  BILL  -------------------                                                                                  
+    //            1. ${food_1_name} x ${food_1_price} = ${cost_1.toFixed(2)}  ${foodPriceUnits}  
+    //            2. ${food_2_name} x ${food_2_price} = ${cost_2.toFixed(2)}  ${foodPriceUnits} 
+    //            3. ${food_3_name} x ${food_3_price} = ${cost_3.toFixed(2)}  ${foodPriceUnits}  
+    //            4. ${food_4_name} x ${food_4_price} = ${cost_4.toFixed(2)}  ${foodPriceUnits}                                                                                    
+    //            ----------------------------------------
+    //             BILL: ${totalPrice.toFixed(2)} ${foodPriceUnits}                                                      -
+    //             FREE DELIVERY: ${free_delivery}                                 
+    //            --------------  BILL  -------------------
+    //   `
+    //)
+    
+    
+        // VARIANTA II
 
 
 
