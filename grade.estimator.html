@@ -16,9 +16,17 @@
         else if(grade >= 1 && grade <= 4){// >= 1 && <= 4  --VERY BAD
             alert("VERY BAD!");
             }
-        else {
-                alert("VERY BAD! ");
+         
+            else if(grade < 1 ) { 
+
+            if(grade < 10){ //failed condition
+
+             alert("WRONG GRADE");
             }
+            else 
+            {alert("VERY BAD");
+            }
+          }
         
         
         //parseInt(9.9) => 9
